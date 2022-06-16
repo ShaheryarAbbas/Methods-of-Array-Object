@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Methods of Array</title>
+</head>
+<body>
+    <Script>
+        var ar = ["Ali",23,"Faisal", 32,"Iqra", 25];
+        ar.sort();
+        ar.push("Faisal")
+        document.write(ar);
+        document.write("<br>");
+        for(var i=0;i<ar.length;i++){
+            document.write(ar[i] + " ");
+        }
+        
+        document.write("<br>");
+        var ary = [
+    ["a",22, "u", 25, "c", 30],
+    ["d",23,"e",21,"f",26],
+    ["g",32,"h",34,"i",35]]
+    ary.sort();
+    for(var p = 0; p<ary.length; p++){
+        for(var o = 0; o<ary[p].length;o++)
+        document.write(ary[p][o] + " ")
+        document.write("<br>");
+    }
+
+
+    var arr = [
+        ["Ali",22,"Kamil",42,"Asad",30],
+        ["z",23,"n",21,"o",25],
+        ["u",12,"r",14,"s",45]
+]
+arr[0].sort();
+document.write(arr);
+
+    for(var g=0;g<arr.length;g++){
+        for(var h=0;h<arr[g].length;h++){
+            document.write(arr[g][h] + " ")
+        }
+        document.write("<br>")
+    }
+    </Script>
+</body>
+</html>
